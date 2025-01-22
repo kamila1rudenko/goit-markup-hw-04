@@ -83,7 +83,7 @@ font-family: "Raleway", sans-serif;
         color: #404bbf;
     }
     
-    .nav-link.active::after {
+    .nav-link.active::after, .nav-link.active {
         content: '';
         position: absolute;
         bottom: -1px;
@@ -413,6 +413,7 @@ display: flex;
 
 .footer-social-link:hover,
 .footer-social-link:focus {
+    background-color: #31d0aa;
 }
 .page-footer .container {
     display: flex;
