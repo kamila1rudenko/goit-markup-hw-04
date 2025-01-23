@@ -147,7 +147,6 @@ background-size: cover;
 background-position: center;
 max-width: 1440px;
 margin: 0 auto; 
-margin-bottom: 120px;
 }
 .header-nav {
     display: flex;
